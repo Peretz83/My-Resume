@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: white;
 }
 
 .main-container {
@@ -98,7 +98,7 @@ body {
 }
 
 .main-container .left-side-wrap .email-wrap .email {
-  font-size: 12px;
+  font-size: 10.5px;
   margin-left: 8px;
   color: white;
   margin-top: 2px;
@@ -132,7 +132,7 @@ body {
 }
 
 .main-container .left-side-wrap .phone-wrap .phone-number {
-  font-size: 12px;
+  font-size: 11px;
   margin-left: 8px;
   color: white;
   margin-top: 2px;
@@ -166,8 +166,8 @@ body {
 }
 
 .main-container .left-side-wrap .location-wrap .location {
-  font-size: 12px;
-  margin-left: 8px;
+  font-size: 11px;
+  margin-left: 12px;
   color: white;
   margin-top: 2px;
 }
@@ -622,7 +622,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: -30px;
-  border: green solid 2px;
 }
 
 .main-container .right-side .work-experience-wrap .work-experience {
@@ -646,9 +645,13 @@ body {
   height: 100%;
   display: row;
   font-size: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  line-height: -20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  border: solid 2px green;
 }
 
 .main-container .right-side .we-wrap .right-1 {
@@ -661,9 +664,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  line-height: 0px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   padding-top: 8px;
   margin-top: 0px;
   padding: 10px;
